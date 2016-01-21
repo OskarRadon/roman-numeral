@@ -18,7 +18,9 @@ var ones = function(onesPlace) {
     onesPlace = "II";
   } else if (onesPlace === 3) {
     onesPlace = "III";
-  };
+  } else if (onesPlace === 4) {
+    onesPlace = "IV";
+  }
   return onesPlace;
 
 
