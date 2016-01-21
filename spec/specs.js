@@ -15,12 +15,20 @@ describe("romanNumerals", function() {
 
 describe("ones", function() {
 
-  it("will convert numbers 1-3 in 1's place to roman numerals", function(){
+  it("check if index references correct position in numbers", function() {
     expect(ones(3)).to.equal("III");
   });
 
-  it("will convert 4 in 1's place to roman numerals", function() {
-    expect(ones(4)).to.equal("IV");
-  });
+  // it("will convert numbers 1-3 in 1's place to roman numerals", function(){
+  //   expect(ones(3)).to.equal("III");
+  // });
+  //
+  // it("will convert 4 in 1's place to roman numerals", function() {
+  //   expect(ones(4)).to.equal("IV");
+  // });
+  //
+  // it("will convert 5 in 1's place to roman numerals", function() {
+  //   expect(ones(5)).to.equal("V");
+  // });
 
 });
