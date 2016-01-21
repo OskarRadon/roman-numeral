@@ -11,5 +11,16 @@ describe("romanNumerals", function() {
   it("will throw error if digit in 1000's place is greater than 3", function() {
     expect(romanNumerals(4321)).to.equal(true);
   });
-  // it("will convert number in 1's place to roman numeral")
+});
+
+describe("ones", function() {
+
+  it("will convert numbers 1-3 in 1's place to roman numerals", function(){
+    expect(ones(3)).to.equal("III");
+  });
+
+  it("will convert 4 in 1's place to roman numerals", function() {
+    expect(ones(4)).to.equal("IV");
+  });
+
 });
